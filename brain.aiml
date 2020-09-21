@@ -9,6 +9,26 @@
 </category>
 
 <category>
+<pattern> * HOW ARE YOU </pattern>
+<template>
+    I am fine, How about you?
+</template>
+</category>
+<category>
+<pattern>*</pattern>
+<template>
+    Hi, I am your virtual assistant, How can I help you?
+</template>
+</category>
+
+<category>
+<pattern> I * </pattern>
+<template>
+    That's great, How can I help you?
+</template>
+</category>
+
+<category>
 <pattern> ANYONE HERE </pattern>
 <template>
     Hello, How can I help you?
@@ -48,7 +68,7 @@
 <category>
 <pattern> I WANT TO * LOAN </pattern>
 <template>
-Sure, Here is more details about our loan policy, please visit: https://famacash.com
+    Sure, Here is more details about our loan policy, please visit: https://famacash.com
 </template>
 
 </category>
