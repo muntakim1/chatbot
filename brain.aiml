@@ -9,7 +9,7 @@
 </category>
 
 <category>
-<pattern> * LOANS </pattern>
+<pattern>* LOAN * </pattern>
 <template>
     <li>Sure, Here is more details about our loan policy, please visit: https://famacash.com
 </li> 
@@ -32,7 +32,7 @@
 </category>
 
 <category>
-<pattern> I * </pattern>
+<pattern> I am *</pattern>
 <template>
     That's great, How can I help you?
 </template>
@@ -63,11 +63,10 @@
 </category>
 
 <category>
-<pattern> * LOAN </pattern>
+<pattern>TELL * LOANS </pattern>
 <template>
     <random>
-       <li>Sure, Here is more details about our loan policy, please visit: https://famacash.com
-</li> 
+       <li>Sure, Here is more details about our loan policy, please visit: https://famacash.com</li> 
        <li>Fama finance is the best and more reowned company in FINTECH industry, Here is more details about our loan policy, please visit: https://famacash.com
 </li>
     </random>
