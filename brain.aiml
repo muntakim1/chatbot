@@ -18,7 +18,7 @@
 </category>
 
 <category>
-<pattern> * HOW ARE YOU </pattern>
+<pattern>HOW ARE YOU </pattern>
 <template>
     I am fine, How about you?
 </template>
